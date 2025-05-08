@@ -9,13 +9,13 @@ btn.addEventListener('click', () => {
   if (surprise.classList.contains('show')) {
     // Hide message and stop the roar
     surprise.classList.remove('show');
-    btn.textContent = 'Do some roar 🐯';
+    btn.textContent = 'Otherwise Dee gonna 🐯';
     roarSound.pause();
     roarSound.currentTime = 0; // rewind
   } else {
     // Show message and play roar ella
     surprise.classList.add('show');
-    btn.textContent = 'Quiet now 🙈';
+    btn.textContent = 'Sherri 🙈';
     roarSound.play();
     createTigerParticles(); // Add tiger emojis on roar
   }
