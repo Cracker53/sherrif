@@ -11,7 +11,7 @@ btn.addEventListener('click', () => {
     surprise.classList.remove('show');
     btn.textContent = 'Otherwise Dee gonna 🐯';
     roarSound.pause();
-    roarSound.currentTime = 0; // rewind
+    roarSound.currentTime = 0; // rewind 
   } else {
     // Show message and play roar ella
     surprise.classList.add('show');
